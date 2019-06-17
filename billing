@@ -1,0 +1,44 @@
+<!-- important note:include in <button> tag for basic billing plan -->
+<!-- Code for BASIC SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Capsuite Billing"
+                                data-description="Basic Subscription ($499 per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount="49900">
+                        </script> 
+                        
+<!-- important note:include in <button> tag for advanced billing plan -->
+<!-- Code for ADVANCED SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Capsuite Billing"
+                                data-description="Advanced Subscription ($699 per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount="69900">
+                        </script> 
+                        
+<!-- important note:include in <button> tag for premium billing plan -->
+<!-- Code for PREMIUM SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Premium Billing"
+                                data-description="Premium Subscription ($999 per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount="99900">
+                        </script> 
